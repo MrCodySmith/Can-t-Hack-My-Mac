@@ -1,2 +1,14 @@
 ## This document is to act as a rationale statement for most, 
 ## if not all of the actions performed in this script.
+
+## SECTION 1 ##
+
+Ensuring Auto-Updates are on can prevent a user from falling behind on important security-related updates. 
+It's worth noting that this may not work for some enterprise environments, however, it is preffered for home users. 
+
+## SECTION 2 ## 
+
+# Bluetooth #
+There is no purpose in having Bluetooth on unless a device is connected, as such, we will turn 
+it off if there is no Bluetooth device present. 
+At the same time, it is desireable that the end user can tell whether or not Bluetooth is enabled. 
